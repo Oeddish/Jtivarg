@@ -1,8 +1,8 @@
 package org.tsoft.jtivarg.yticlock;
 
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
-import org.tsoft.jtivarg.astrovania.MainMenu;
 
 /**
  *
@@ -22,8 +22,6 @@ public class MainFrame extends JFrame
 
 	public void init()
 	{
-		MainMenu menuBar = new MainMenu(m_application);
-
-		setJMenuBar(menuBar);
+        // Init menu here if desired
 	}
 }
