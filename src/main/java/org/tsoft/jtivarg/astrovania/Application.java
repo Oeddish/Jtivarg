@@ -215,6 +215,12 @@ public class Application extends WindowAdapter implements Runnable, ActionListen
     {
         String worldFile = m_config.getWorldFile();
 
+        // user hasn't selected save location via load, save, or save as...
+        if (null == worldFile)
+        {
+            return;
+        }
+
         YAMLFactory yamlFactory = new YAMLFactory();
         ObjectMapper objectMapper = new ObjectMapper(yamlFactory);
         File file = new File(worldFile);
