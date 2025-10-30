@@ -25,6 +25,6 @@ public class WorldIntegrationTests extends TestCaseSwing
         world.tick(100);
         world.tick(100);
 
-        System.out.println("");
+        assertNotNull("World should be initialized", world.getRootEntity());
     }
 }
