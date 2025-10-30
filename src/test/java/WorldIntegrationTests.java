@@ -1,7 +1,4 @@
-import java.awt.*;
-
 import org.junit.Test;
-import org.tsoft.jtivarg.astrovania.Application;
 import org.tsoft.jtivarg.astrovania.game.World;
 
 /**
@@ -10,8 +7,7 @@ import org.tsoft.jtivarg.astrovania.game.World;
  */
 public class WorldIntegrationTests extends TestCaseSwing
 {
-    @Test
-    public void testWorldWithSurface() throws InterruptedException
+    public void testWorldWithSurface()
     {
         // Fixes a lot of repaint bugs when redrawing menus or dragging windows over each other.
         System.setProperty("swing.bufferPerWindow", "false");

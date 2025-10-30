@@ -1,7 +1,6 @@
 package org.tsoft.jtivarg.math;
 
 import static junit.framework.TestCase.assertEquals;
-import static junit.framework.TestCase.assertTrue;
 
 import org.junit.Test;
 

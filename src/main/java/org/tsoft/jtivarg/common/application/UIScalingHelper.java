@@ -16,7 +16,7 @@ public class UIScalingHelper
      */
     public static void scaleUIFonts(float scaleFactor)
     {
-        Enumeration keys = UIManager.getDefaults().keys();
+        Enumeration<Object> keys = UIManager.getDefaults().keys();
         while (keys.hasMoreElements())
         {
             Object key = keys.nextElement();
